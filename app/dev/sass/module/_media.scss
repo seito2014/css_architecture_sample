@@ -1,0 +1,41 @@
+/*
+#overview
+media
+
+*/
+
+/*
+#styleguide
+
+type
+```
+```
+*/
+
+.media {
+    width: 100%;
+    background: #fff;
+    &-link{
+        display: block;
+        @extend %clearfix;
+        color: #333;
+        text-decoration: none;
+    }
+    &-image{
+        float: left;
+    }
+    &-body{
+        margin-left: 160px;
+        padding: 15px;
+    }
+    &-heading{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+    &-text{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

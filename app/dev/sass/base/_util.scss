@@ -1,10 +1,10 @@
 @for $i from 0 through 14 {
-    .u_mt#{$i * 5} { margin-top: 5px * $i !important; }
-    .u_mr#{$i * 5} { margin-right: 5px * $i !important; }
-    .u_mb#{$i * 5} { margin-bottom: 5px * $i !important; }
-    .u_ml#{$i * 5} { margin-left: 5px * $i !important; }
-    .u_pt#{$i * 5} { padding-top: 5px * $i !important; }
-    .u_pr#{$i * 5} { padding-right: 5px * $i !important; }
-    .u_pb#{$i * 5} { padding-bottom: 5px * $i !important; }
-    .u_pl#{$i * 5} { padding-left: 5px * $i !important; }
+    .u-mt#{$i * 5} { margin-top: 5px * $i !important; }
+    .u-mr#{$i * 5} { margin-right: 5px * $i !important; }
+    .u-mb#{$i * 5} { margin-bottom: 5px * $i !important; }
+    .u-ml#{$i * 5} { margin-left: 5px * $i !important; }
+    .u-pt#{$i * 5} { padding-top: 5px * $i !important; }
+    .u-pr#{$i * 5} { padding-right: 5px * $i !important; }
+    .u-pb#{$i * 5} { padding-bottom: 5px * $i !important; }
+    .u-pl#{$i * 5} { padding-left: 5px * $i !important; }
 }

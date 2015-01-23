@@ -1,0 +1,15 @@
+.page-archive {
+    
+    .heading-primary{
+        margin-bottom: 30px;
+    }
+
+    .archive-list {
+        > li {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

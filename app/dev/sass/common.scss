@@ -9,7 +9,7 @@
 @import "base/basic";
 
 /*
-* pages
+* layout
 */
 @import "layout/header";
 @import "layout/footer";
@@ -18,13 +18,16 @@
 @import "layout/side";
 
 /*
-* pages
-*/
-@import "index";
-
-/*
 * module
 */
 @import "module/button";
 @import "module/heading";
 @import "module/list";
+
+@import "module/media";
+
+/*
+* pages
+*/
+@import "index";
+@import "archive";
