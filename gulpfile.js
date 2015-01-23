@@ -3,7 +3,8 @@ var gulp = require("gulp");
 var ejs = require("gulp-ejs"),
     sass = require("gulp-ruby-sass"),
     pleeease = require("gulp-pleeease"),
-    browser = require("browser-sync");
+    browser = require("browser-sync"),
+    frontNote = require('gulp-frontnote');
 
 var DEV = "app/dev",
     PUBLIC = "app/public";
@@ -20,7 +21,16 @@ gulp.task("ejs", function() {
 
 //style
 gulp.task("style", function() {
-    gulp.src(DEV + "/sass/**/*.scss")
+    return gulp.src(DEV + "/sass/**/*.scss")
+        .pipe(frontNote({
+            title:'STYLE GUIDE',
+            overview:'./README.md',
+            out:'./style_guide',
+            css:'../app/public/css/common.css',
+            //script:'',
+            clean:true
+            //verbose:true
+        }))
         .pipe(sass({
             style:"nested",
             compass : true,

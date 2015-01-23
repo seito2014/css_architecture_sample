@@ -1,0 +1,86 @@
+/*
+#overview
+button
+
+*/
+
+/*
+#styleguide
+
+type
+```
+<a href="#" class="button button-primary">button</a>
+<a href="#" class="button button-error">button</a>
+<a href="#" class="button button-warning">button</a>
+```
+*/
+
+/*
+#styleguide
+
+size
+```
+<a href="#" class="button button-primary small">button</a>
+<a href="#" class="button button-primary">button</a>
+<a href="#" class="button button-primary large">button</a>
+```
+*/
+
+/*
+#styleguide
+
+radius
+```
+<a href="#" class="button button-primary square">button</a>
+<a href="#" class="button button-primary circle">button</a>
+```
+*/
+
+.button {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    //size
+    &.small {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    &.large {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 40px;
+        font-size: 20px;
+    }
+
+    //radius
+    &.square{
+        border-radius: 0;
+    }
+    &.circle{
+        border-radius: 10px;
+    }
+}
+
+//type
+.button-primary {
+    background: #40BFB0;
+    color: #fff;
+}
+.button-error {
+    background: #D7607C;
+    color: #fff;
+}
+.button-warning {
+    background: #F6D158;
+    color: #fff;
+}
+
