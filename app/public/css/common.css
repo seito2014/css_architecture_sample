@@ -515,9 +515,10 @@ body {
 
 .side {
   float: right;
-  width: 25%;
+  width: 27%;
   background: #eee;
-  min-height: 600px; }
+  min-height: 600px;
+  padding: 15px; }
 
 /*
 * module
@@ -768,6 +769,16 @@ type
   .media-text {
     font-size: 14px;
     line-height: 1.4; }
+  .media.small .media-link {
+    padding: 10px; }
+  .media.small .media-body {
+    margin-left: 80px;
+    padding: 0 0 0 10px; }
+  .media.small .media-heading {
+    font-size: 14px;
+    margin-bottom: 5px; }
+  .media.small .media-text {
+    font-size: 12px; }
 
 /*
 * pages
@@ -797,3 +808,9 @@ type
   margin-bottom: 15px; }
   .page-archive .archive-list > li:last-child {
     margin-bottom: 0; }
+.page-archive .archive-side-list > li {
+  margin-bottom: 10px; }
+  .page-archive .archive-side-list > li:last-child {
+    margin-bottom: 0; }
+.page-archive .heading-secondary {
+  margin-bottom: 15px; }

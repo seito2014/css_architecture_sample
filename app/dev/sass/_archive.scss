@@ -12,4 +12,17 @@
             }
         }
     }
+
+    .archive-side-list{
+        > li{
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .heading-secondary{
+        margin-bottom: 15px;
+    }
 }

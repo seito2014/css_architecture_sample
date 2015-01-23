@@ -38,4 +38,24 @@ type
         font-size: 14px;
         line-height: 1.4;
     }
+
+    //size
+    &.small{
+        .media{
+            &-link{
+                padding: 10px;
+            }
+            &-body {
+                margin-left: 80px;
+                padding: 0 0 0 10px;
+            }
+            &-heading{
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            &-text{
+                font-size: 12px;
+            }
+        }
+    }
 }
