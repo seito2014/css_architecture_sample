@@ -1,9 +1,5 @@
-@charset "UTF-8";
 /*
 * base
-*/
-/*
-* 変数用scss(カラーコード以外)
 */
 .header_inner, .contents_inner {
   zoom: 1; }

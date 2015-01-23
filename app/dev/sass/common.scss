@@ -11,16 +11,16 @@
 /*
 * pages
 */
-@import "common/header";
-@import "common/footer";
-@import "common/contents";
-@import "common/main";
-@import "common/side";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/contents";
+@import "layout/main";
+@import "layout/side";
 
 /*
 * pages
 */
-@import "pages/index";
+@import "index";
 
 /*
 * module
