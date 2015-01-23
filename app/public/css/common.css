@@ -664,3 +664,99 @@ heading
   color: #333;
   padding-bottom: 5px;
   border-bottom: 2px #333 dotted; }
+
+/*
+#overview
+list
+
+*/
+/*
+#styleguide
+
+list-disc
+```
+<ul class="list-disc">
+	<li>list</li>
+	<li>list</li>
+	<li>list</li>
+</ul>
+```
+*/
+/*
+#styleguide
+
+list-circle
+```
+<ul class="list-circle">
+	<li>list</li>
+	<li>list</li>
+	<li>list</li>
+</ul>
+```
+*/
+/*
+#styleguide
+
+list-number
+```
+<ul class="list-number">
+	<li>list</li>
+	<li>list</li>
+	<li>list</li>
+</ul>
+```
+*/
+.list-disc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333; }
+  .list-disc > li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 14px; }
+    .list-disc > li:before {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 6px;
+      background: #333;
+      border-radius: 50%;
+      position: absolute;
+      top: 7px;
+      left: 0; }
+    .list-disc > li:last-child {
+      margin-bottom: 0; }
+
+.list-circle {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333; }
+  .list-circle > li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 14px; }
+    .list-circle > li:before {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      border-radius: 50%;
+      border: #333 2px solid;
+      position: absolute;
+      top: 5px;
+      left: 0; }
+    .list-circle > li:last-child {
+      margin-bottom: 0; }
+
+.list-number {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333; }
+  .list-number > li {
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 20px;
+    list-style: decimal; }
+    .list-number > li:last-child {
+      margin-bottom: 0; }
