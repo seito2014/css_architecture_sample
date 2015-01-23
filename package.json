@@ -1,0 +1,31 @@
+{
+  "name": "demoSample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seito2014/demo-sample.git"
+  },
+  "keywords": [
+    "gulp",
+    "demo",
+    "test"
+  ],
+  "author": "seito horiguchi",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/seito2014/demo-sample/issues"
+  },
+  "homepage": "https://github.com/seito2014/demo-sample",
+  "devDependencies": {
+    "browser-sync": "^1.9.1",
+    "gulp": "^3.8.10",
+    "gulp-ejs": "^1.0.0",
+    "gulp-pleeease": "^1.1.0",
+    "gulp-ruby-sass": "^0.7.1"
+  }
+}

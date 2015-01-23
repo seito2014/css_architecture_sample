@@ -1,0 +1,65 @@
+%icon{
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+%blow{
+	overflow: hidden;
+	text-indent: 120%;
+	white-space: nowrap;
+}
+
+%clearfix{
+	zoom: 1;
+	&:before,&:after{
+		content: "";
+		display: block;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+%hover{
+	transition: opacity ease 0.3s;
+	&:hover{
+		opacity: 0.7;
+	}
+}
+
+%elps{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+}
+
+%no_tap{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+%no_call{
+	-webkit-touch-callout:none;
+}
+
+%tdn{
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+%tdu{
+	text-decoration: underline;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+%row {
+	@extend %clearfix;
+	margin-left: -$gutter;
+	width: 100% + $gutter;
+	*padding-right: 1%;
+}

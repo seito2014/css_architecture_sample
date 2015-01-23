@@ -1,0 +1,23 @@
+/*
+* base
+*/
+@import "base/setting";
+@import "base/default/mixin";
+@import "base/default/define";
+@import "base/default/reset";
+@import "base/util";
+@import "base/basic";
+
+/*
+* pages
+*/
+@import "common/header";
+@import "common/footer";
+@import "common/contents";
+@import "common/main";
+@import "common/side";
+
+/*
+* pages
+*/
+@import "pages/index";

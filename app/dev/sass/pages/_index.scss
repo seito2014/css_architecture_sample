@@ -1,0 +1,18 @@
+.index{
+    transform: opacify 0.5s;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.main_visual{
+    width: 100%;
+    margin-top: 30px;
+}
+.main_visual_inner{
+    width: $size_max;
+    margin: 0 auto;
+    >img{
+        width: 100%;
+        height: auto;
+    }
+}
