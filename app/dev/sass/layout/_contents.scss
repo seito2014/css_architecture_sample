@@ -2,7 +2,7 @@
     width: 100%;
     margin: 30px 0;
 }
-.contents_inner{
+.contents-inner{
     width: $size_max; //setting.scssに記述
     margin: 0 auto;
     @extend %clearfix;
